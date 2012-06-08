@@ -22,7 +22,7 @@ Requirements
 Installation
 --------------
 
-    git clone git://github.com/mnutt/hummingbird.git
+    git clone git://github.com/clickOnero/hummingbird.git
     cd hummingbird
 
     # Use npm to install the dependencies
