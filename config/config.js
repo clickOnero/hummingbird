@@ -2,7 +2,7 @@ module.exports = config = {
   "name" : "Hummingbird",
 
   "tracking_port" : 8000,
-  "dashboard_port" : 8080,
+  "dashboard_port" : 8081,
 
   "mongo_host" : "localhost",
   "mongo_port" : 27017,
