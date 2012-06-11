@@ -4,7 +4,7 @@
   "tracking_port" : 8200,
   "dashboard_port" : 8280,
 
-  "mongo_host" : "localhost",
+  "mongo_host" : "192.168.100.123",
   "mongo_port" : 27017,
 
   "udp_address" : "127.0.0.1",
