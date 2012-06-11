@@ -98,12 +98,16 @@ $.extend(Hummingbird.Map.prototype, {
                                  {
                                    duration: 1000,
                                    step: function(now, fx) {
+                                     //console.log("----------");
+                                     //console.log($(this));
                                      var radius = $(this).find("circle").attr('r');
-                                     if(!radius.originalValue) { radius.originalValue = radius.baseVal.value; }
-                                     radius.baseVal.value = radius.originalValue * now;
+                                     //if(!radius.originalValue) { radius.originalValue = radius.baseVal.value; }
+                                     //radius.baseVal.value = radius.originalValue * now;
                                    },
                                    easing: "linear",
                                    complete: function() {
+                                     //console.log("-------x!");
+                                     //console.log($(this));
                                      $(this).parent().parent().parent().remove();
                                    }
                                  });
